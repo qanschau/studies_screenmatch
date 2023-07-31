@@ -1,0 +1,26 @@
+[
+  {
+    "Title": "The Goonies",
+    "ReleaseYear": 1985,
+    "DurationInMinutes": 114,
+    "AddedIntoPlan": false,
+    "SumOfRates": 0.0,
+    "TotalNumberOfRates": 0
+  },
+  {
+    "Title": "Matrix",
+    "ReleaseYear": 1993,
+    "DurationInMinutes": 60,
+    "AddedIntoPlan": false,
+    "SumOfRates": 0.0,
+    "TotalNumberOfRates": 0
+  },
+  {
+    "Title": "Star Wars: Episode IV - A New Hope",
+    "ReleaseYear": 1977,
+    "DurationInMinutes": 121,
+    "AddedIntoPlan": false,
+    "SumOfRates": 0.0,
+    "TotalNumberOfRates": 0
+  }
+]

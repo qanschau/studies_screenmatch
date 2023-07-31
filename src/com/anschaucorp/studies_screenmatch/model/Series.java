@@ -6,6 +6,11 @@ public class Series extends Title{
     private int episodesPerSesson;
     private int minutesPerEpisode;
 
+    public Series(String title, int releaseYear) {
+        super(title, releaseYear);
+    }
+
+
     public int getSessons() {
         return sessons;
     }
@@ -41,5 +46,10 @@ public class Series extends Title{
     @Override
     public int getDurationInMinutes() {
         return (sessons * episodesPerSesson * minutesPerEpisode);
+    }
+
+    @Override
+    public String toString() {
+        return "Series: " + this.getTitle() + " (" + this.getReleaseYear() + ")";
     }
 }
